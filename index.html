@@ -9,9 +9,8 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="https://www.pokemon.com/us/pokemon-video-games" aria-label="Pokémon 官方網站">
-      <span class="brand-word">Pokémon</span>
-      <span class="brand-sub">VIDEO GAMES</span>
+    <a class="brand-img" href="https://www.pokemon.com/us/pokemon-video-games" aria-label="官方網站">
+      <img src="Pokemon logo.png" alt="我的Logo" style="height: 80px;">
     </a>
     <span class="header-pill"><span class="status-dot"></span> TRAINER NOTICE</span>
   </header>
@@ -19,38 +18,15 @@
   <main class="maintenance">
     <div class="eyebrow"><span class="spark">✦</span> A LITTLE PIT STOP ON OUR ADVENTURE <span class="spark">✦</span></div>
 
-    <section class="scene" aria-label="皮卡丘正在跑步的像素動畫">
+    <section class="scene" aria-label="自訂圖片區塊">
       <div class="cloud cloud-one"></div>
       <div class="cloud cloud-two"></div>
-      <div class="speed speed-one"></div>
-      <div class="speed speed-two"></div>
-      <div class="pikachu-runner" role="img" aria-label="像素風皮卡丘">
-        <svg class="pikachu" viewBox="0 0 128 112" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" aria-hidden="true">
-          <!-- lightning tail -->
-          <path d="M91 61h13V48h10v13h-9v13h-9V87H84V73h7z" fill="#9b642d"/>
-          <path d="M101 48h12v13h-9v13h-9V87H84V73h7V61h10z" fill="#f4bd24"/>
-          <!-- ears -->
-          <path d="M31 35H20V22H13V8h12v13h10v14z" fill="#f7c928"/>
-          <path d="M13 8h12v13H13z" fill="#29251e"/>
-          <path d="M48 32h10V19h8V5h12v14H68v14H55v8H45z" fill="#f7c928"/>
-          <path d="M66 5h12v14H66z" fill="#29251e"/>
-          <!-- body and head -->
-          <path d="M34 43h12V34h29v8h13v12h9v27H86v13H72v8H46V94H33V83H24V57h10z" fill="#f7c928"/>
-          <path d="M42 43h28v8H42z" fill="#ffdc53"/>
-          <!-- feet -->
-          <path d="M37 91h15v9H42v8H25v-8h12z" fill="#e8a91c"/>
-          <path d="M70 91h13v8h12v8H73v-8h-3z" fill="#e8a91c"/>
-          <!-- brown back stripes -->
-          <path d="M75 55h8v9h-8zM75 70h8v8h-8z" fill="#9b642d"/>
-          <!-- cheeks -->
-          <path d="M22 62h13v13H22zM83 62h13v13H83z" fill="#ed5547"/>
-          <!-- eyes -->
-          <path d="M39 53h6v9h-6zM69 53h6v9h-6z" fill="#29251e"/>
-          <path d="M46 67h6v5h-6zM64 67h6v5h-6z" fill="#29251e"/>
-          <path d="M52 76h12v5H52z" fill="#29251e"/>
-          <path d="M55 76h6v3h-6z" fill="#fff1c1"/>
-        </svg>
+      
+      <!-- 把原本的 SVG 皮卡丘換成你的圖片 -->
+      <div class="custom-image-container" style="position: absolute; z-index: 2; left: calc(50% - 60px); bottom: 25px; text-align: center;">
+        <img src="pika.png" alt="我的自訂圖片" style="width: 120px; height: auto;">
       </div>
+
       <div class="ground"></div>
       <div class="ground-line"></div>
       <div class="ground-shadow"></div>
